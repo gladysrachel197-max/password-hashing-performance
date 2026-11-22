@@ -1,0 +1,4 @@
+# Benchmark: no third-party Python packages required.
+# Uses Python standard-library modules.
+# Requires hashlib.pbkdf2_hmac and hashlib.scrypt support.
+# Analysis and plotting dependencies will be documented separately.

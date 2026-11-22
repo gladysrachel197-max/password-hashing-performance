@@ -1,0 +1,79 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-20T20:38:19.761044+01:00",
+  "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "cpu_reported_by_student": "Intel Core i5-10210U",
+  "installed_ram_gb_reported_by_student": 8,
+  "windows_edition_reported_by_student": "Windows 11 Pro",
+  "windows_version_reported_by_student": "26H2",
+  "windows_build_reported_by_student": "26300.9818",
+  "power_mode": "Best Power Efficiency",
+  "pre_run_notes": "none",
+  "repeats_per_configuration": 30,
+  "warmups_per_configuration": 3,
+  "derived_key_bytes": 32,
+  "scrypt_maxmem_bytes": 536870912,
+  "order_seed": 20261120,
+  "clock": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "configurations": [
+    {
+      "id": "pbkdf2_100000",
+      "algorithm": "pbkdf2",
+      "iterations": 100000
+    },
+    {
+      "id": "pbkdf2_300000",
+      "algorithm": "pbkdf2",
+      "iterations": 300000
+    },
+    {
+      "id": "pbkdf2_600000",
+      "algorithm": "pbkdf2",
+      "iterations": 600000
+    },
+    {
+      "id": "pbkdf2_1200000",
+      "algorithm": "pbkdf2",
+      "iterations": 1200000
+    },
+    {
+      "id": "scrypt_32768",
+      "algorithm": "scrypt",
+      "n": 32768,
+      "r": 8,
+      "p": 1
+    },
+    {
+      "id": "scrypt_65536",
+      "algorithm": "scrypt",
+      "n": 65536,
+      "r": 8,
+      "p": 1
+    },
+    {
+      "id": "scrypt_131072",
+      "algorithm": "scrypt",
+      "n": 131072,
+      "r": 8,
+      "p": 1
+    },
+    {
+      "id": "scrypt_262144",
+      "algorithm": "scrypt",
+      "n": 262144,
+      "r": 8,
+      "p": 1
+    }
+  ],
+  "memory_method": "No process memory measured in this timing experiment.",
+  "finished_at": "2026-11-20T20:39:50.748020+01:00",
+  "measurement_rows": 240
+}
